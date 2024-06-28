@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="dados">
+        <h1>Cadastrar</h1>
+        <div id="line"></div>
+        <div class="infos">
+          <h4>Nome</h4>
+          <input
+            placeholder="Nome de usuário"
+            type="text"
+            name="name"
+            required
+          />
+        </div>
+        <div class="infos">
+          <h4>Email</h4>
+          <input placeholder="Email" type="text" name="email" required />
+        </div>
+        <div class="infos">
+          <h4>Senha</h4>
+          <input
+            placeholder="Senha"
+            type="password"
+            minlength="8"
+            name="password"
+            required
+          />
+        </div>
+        <button id="submit" type="submit" value="singUp">Cadastrar</button>
+      </div>
+    </div>
+  </body>
+</html>
